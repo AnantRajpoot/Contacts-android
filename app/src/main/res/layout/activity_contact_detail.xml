@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactDetailActivity">
+
+    <!--image view for contact-->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#2A462B"
+        android:padding="50dp"
+        android:src="@drawable/person" />
+<!--        app:tint="@color/white" -->
+        />
+
+    <!--text view for displaying user name-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImage"
+        android:background="#2A462B"
+        android:padding="8dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!--cardview for displaying user contact-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--image view for making a call -->
+            <ImageView
+                android:id="@+id/callButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:src="@android:drawable/ic_menu_call"
+                app:tint="#000000" />
+
+            <!--text view for displaying user contact-->
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_toStartOf="@id/messageButton"
+                android:layout_toEndOf="@id/callButton"
+                android:text="Phone" />
+
+            <!--image view for displaying message icon-->
+            <ImageView
+                android:id="@+id/messageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="8dp"
+                android:padding="4dp"
+                android:src="@android:drawable/ic_menu_send"
+                app:tint="#000" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
