@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         // Handle click event on FloatingActionButton to open CreateNewContactActivity
         addNewContactFAB.setOnClickListener {
-            startActivity(Intent(this@MainActivity, CreateNewContactActivity::class.java))
+            startActivity(Intent(this, CreateNewContactActivity::class.java))
         }
     }
 
