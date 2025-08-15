@@ -25,6 +25,6 @@
         android:layout_marginStart="8dp"
         android:layout_gravity="center_vertical"
         android:text="Contact Name"
-        android:textColor="@color/black" />
+        android:textColor="@color/primaryTextColor" />
 
 </LinearLayout>

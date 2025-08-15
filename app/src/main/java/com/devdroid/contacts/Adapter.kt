@@ -25,12 +25,12 @@ class Adapter(
 
     // Updates the contact list with a filtered
     // list and notifies the adapter
-    fun filterList(filterList: ArrayList<Contacts>) {
-        contactsArrayList = filterList
-
-        // Notify adapter about dataset change
-        notifyItemRangeChanged(0, itemCount)
-    }
+//    fun filterList(filterList: ArrayList<Contacts>) {
+//        contactsArrayList = filterList
+//
+//        // Notify adapter about dataset change
+//        notifyItemRangeChanged(0, itemCount)
+//    }
 
     // Binds data to the ViewHolder for a specific position
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
