@@ -11,4 +11,10 @@
     <color name="searchViewHintColor">@color/medium_gray</color>
     <color name="searchViewIconTint">@color/white</color>
 
+    <color name="appBackgroundColor">@color/black</color>
+    <color name="cardBackgroundColor">#1C1C1E</color>
+    <color name="headerTextColor">#AEAEB2</color>
+    <color name="iconBackgroundColor">#3A4078</color>
+    <color name="iconTextColor">@color/white</color>
+
 </resources>
