@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="light_gray">#F0F0F0</color>
+    <color name="medium_gray">#888888</color>
+    <color name="dark_gray">#333333</color>
+
+    <color name="searchViewBackground">@color/light_gray</color>
+    <color name="searchViewTextColor">@color/black</color>
+    <color name="searchViewHintColor">@color/medium_gray</color>
+    <color name="searchViewIconTint">@color/black</color>
+
 </resources>

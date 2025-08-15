@@ -5,4 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
     <color name="primaryTextColor">@color/white</color>
+
+    <color name="searchViewBackground">@color/dark_gray</color>
+    <color name="searchViewTextColor">@color/white</color>
+    <color name="searchViewHintColor">@color/medium_gray</color>
+    <color name="searchViewIconTint">@color/white</color>
+
 </resources>
